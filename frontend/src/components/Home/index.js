@@ -29,12 +29,11 @@ const Home = () => {
       setShowErrMsg(false);
       //https://smoke-trees-server.vercel.app/register
       //http://localhost:5000/register
-      const apiUrl = "https://smoke-trees-server.vercel.app/register";
+      const apiUrl = "http://localhost:5000/register";
       const options = {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "https://smoke-trees-server.vercel.app/"
         },
         body: JSON.stringify(userDetails),
       };

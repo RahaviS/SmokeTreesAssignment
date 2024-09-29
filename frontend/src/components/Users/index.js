@@ -7,12 +7,12 @@ const Users = () => {
   const getUserList = async () => {
     //https://smoke-trees-server.vercel.app/users
     //http://localhost:5000/users
-    const apiUrl = "https://smoke-trees-server.vercel.app/users";
+    // headers:{
+    //   "Access-Control-Allow-Origin": "https://smoke-trees-server.vercel.app/"
+    // }
+    const apiUrl = "http://localhost:5000/users";
     const options={
       method:"GET",
-      headers:{
-        "Access-Control-Allow-Origin": "https://smoke-trees-server.vercel.app/"
-      }
     }
     const response = await fetch(apiUrl);
     const data = await response.json();
