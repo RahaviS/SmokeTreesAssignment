@@ -27,7 +27,9 @@ const Home = () => {
       setUserName("");
       setAddress("");
       setShowErrMsg(false);
-      const apiUrl = "http://localhost:5000/register";
+      //https://smoke-trees-server.vercel.app/register
+      //http://localhost:5000/register
+      const apiUrl = "https://smoke-trees-server.vercel.app/register";
       const options = {
         method: "POST",
         headers: {
