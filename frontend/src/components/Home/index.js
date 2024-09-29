@@ -34,6 +34,7 @@ const Home = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "https://smoke-trees-server.vercel.app/"
         },
         body: JSON.stringify(userDetails),
       };
