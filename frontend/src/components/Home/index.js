@@ -29,7 +29,7 @@ const Home = () => {
       setShowErrMsg(false);
       //https://smoke-trees-server.vercel.app/register
       //http://localhost:5000/register
-      const apiUrl = "http://localhost:5000/register";
+      const apiUrl = "https://smoketreesassignment-7mqh.onrender.com/register";
       const options = {
         method: "POST",
         headers: {

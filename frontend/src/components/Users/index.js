@@ -10,7 +10,7 @@ const Users = () => {
     // headers:{
     //   "Access-Control-Allow-Origin": "https://smoke-trees-server.vercel.app/"
     // }
-    const apiUrl = "http://localhost:5000/users";
+    const apiUrl = "https://smoketreesassignment-7mqh.onrender.com/users";
     const options={
       method:"GET",
     }
