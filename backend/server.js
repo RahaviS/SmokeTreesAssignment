@@ -57,3 +57,4 @@ app.get("/users",async (request,response)=>{
     const dbResponse = await db.all(sqlcmd);
     response.send(dbResponse);
   })
+

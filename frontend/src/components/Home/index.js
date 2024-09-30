@@ -27,9 +27,9 @@ const Home = () => {
       setUserName("");
       setAddress("");
       setShowErrMsg(false);
-      //https://smoke-trees-server.vercel.app/register
+      //https://smoketreesassignment-7mqh.onrender.com/register
       //http://localhost:5000/register
-      const apiUrl = "https://smoketreesassignment-7mqh.onrender.com/register";
+      const apiUrl = "http://localhost:5000/register";
       const options = {
         method: "POST",
         headers: {

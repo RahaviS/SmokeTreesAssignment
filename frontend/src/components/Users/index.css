@@ -36,8 +36,16 @@
     font-size:30px;
     color:rgb(63, 63, 63);
 }
+.address-list{
+    list-style-type: none;
+    padding-left:0;
+}
+.address-item{
+    margin:0;
+}
 .user-address{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:gray;
     font-size: 15px;
+    margin:0;
 }
