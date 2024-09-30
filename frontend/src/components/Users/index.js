@@ -21,7 +21,7 @@ const Users = () => {
   const getUserList = async () => {
     //https://smoketreesassignment-7mqh.onrender.com/users
     //http://localhost:5000/users
-    const apiUrl = "http://localhost:5000/users";
+    const apiUrl = "https://smoketreesassignment-7mqh.onrender.com/users";
     const options = {
       method: "GET",
     };
